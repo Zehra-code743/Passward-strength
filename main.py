@@ -22,7 +22,7 @@ animated_bg = """
 <style>
     /* Smooth Background Animation */
     [data-testid="stAppViewContainer"] {
-        background: url(''https://storyblok-cdn.photoroom.com/f/191576/768x432/5d72c4f216/spring_backgrounds_cover.webp') no-repeat center center fixed;
+        background: url('https://storyblok-cdn.photoroom.com/f/191576/768x432/5d72c4f216/spring_backgrounds_cover.webp') no-repeat center center fixed;
         background-size: cover;
         animation: fadeIn 3s ease-in-out;
         filter: brightness(0.9) contrast(1.1);
