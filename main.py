@@ -22,7 +22,7 @@ animated_bg = """
 <style>
     /* Smooth Background Animation */
     [data-testid="stAppViewContainer"] {
-        background: url('https://www.icegif.com/wp-content/uploads/2022/03/icegif-589.gif') no-repeat center center fixed;
+        background: url(''https://storyblok-cdn.photoroom.com/f/191576/768x432/5d72c4f216/spring_backgrounds_cover.webp') no-repeat center center fixed;
         background-size: cover;
         animation: fadeIn 3s ease-in-out;
         filter: brightness(0.9) contrast(1.1);
@@ -86,6 +86,8 @@ length = st.slider('Password Length', min_value=15, max_value=50, value=20)
 # Checkbox options
 numbers = st.checkbox('Include Numbers', value=True)
 characters = st.checkbox('Include Special Characters', value=True)
+upper = st.checkbox('Include Uppercase Letters', value=True)
+lower = st.checkbox('Include Lowercase Letters', value=True)
 
 # Generate password on button click
 if st.button('Generate Password'):
